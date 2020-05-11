@@ -1,3 +1,3 @@
 # To-Do-List
 CRUD Operations (Only .Net, Html, Css, Javascript)
-![Response](https://i.ibb.co/2M9jqwM/Capture.png)
+![Response](https://www.linkpicture.com/q/Capture_3.png)
