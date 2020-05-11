@@ -46,7 +46,7 @@ namespace ToDoList.Controllers
             return Redirect("/");
         }
         [HttpPost]
-        public ActionResult Edit(List<TaskListModel.Task> task)
+        public ActionResult Edit(TaskListModel.Task task)
         {
             var taskListModel = TaskListHelper.DeseriliazeTaskListJson();
             var editTask = taskListModel.tasks.Where(x => x.id == task.id).FirstOrDefault();
